@@ -25,6 +25,15 @@ export default function Home() {
               Your Library
             </a>
           </nav>
+
+          <nav className="mt-6 pt-6 border-t border-zinc-800 flex flex-col gap-3">
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">火 | FIRE</a>
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">地 | EARTH</a>
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">水 | WATER</a>
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">風 | WIND</a>
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">空 | EMPTY</a>
+            
+          </nav>
         </aside>
         <main className="flex-1 p-6">
           main
