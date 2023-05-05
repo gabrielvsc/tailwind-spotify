@@ -98,6 +98,10 @@ export default function Home() {
               </button>
             </a>
           </div>
+
+          <h1 className="font-semibold text-2xl mt-10">Made for Gabriel de Vasconcelos</h1>
+
+          <div className="grid grid-cols-5 gap-4 mt-4"></div>
         </main>
       </div>
       <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
