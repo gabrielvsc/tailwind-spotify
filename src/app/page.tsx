@@ -1,4 +1,4 @@
-import { Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight, Play } from 'lucide-react';
+import { Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight, Play, Heart } from 'lucide-react';
 import Image from 'next/image';
 
 export default function Home() {
@@ -130,8 +130,17 @@ export default function Home() {
           </div>
         </main>
       </div>
-      <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
-        footer
+      <footer className="bg-zinc-800 border-t border-zinc-700 p-6 flex items-center justify-between">
+        <div className="flex items-center gap-3">
+          <Image src="/eve-smile.jpg" width={56} height={56} alt=""/>
+          <div className="flex flex-col">
+            <strong className="font-normal">LEO</strong>
+            <span className="text-xs text-zinc-400">Eve</span>
+          </div>
+          <Heart size={16} />
+        </div>
+        <div></div>
+        <div></div>
       </footer>
     </div>
   )
