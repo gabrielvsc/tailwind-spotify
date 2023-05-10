@@ -134,10 +134,10 @@ export default function Home() {
         <div className="flex items-center gap-3">
           <Image src="/eve-smile.jpg" width={56} height={56} alt=""/>
           <div className="flex flex-col">
-            <strong className="font-normal">LEO</strong>
-            <span className="text-xs text-zinc-400">Eve</span>
+            <strong className="font-normal hover:underline">LEO</strong>
+            <span className="text-xs text-zinc-400 hover:underline">Eve</span>
           </div>
-          <Heart size={16} />
+          <Heart size={16} className="text-zinc-400 hover:text-green-500" />
         </div>
         <div></div>
         <div></div>
