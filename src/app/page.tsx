@@ -1,4 +1,4 @@
-import { Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight, Play, Heart } from 'lucide-react';
+import { Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight, Play, Heart, Shuffle, SkipBack, SkipForward, Repeat } from 'lucide-react';
 import Image from 'next/image';
 
 export default function Home() {
@@ -139,7 +139,21 @@ export default function Home() {
           </div>
           <Heart size={16} className="text-zinc-400 hover:text-green-500" />
         </div>
-        <div></div>
+        <div className="flex flex-col items-center gap-4">
+          <div className="flex items-center gap-6">
+            <Shuffle size={20} className="text-zinc-200"/>
+            <SkipBack size={20} className="text-zinc-200"/>
+          
+            <button className="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-white text-black">
+                <Play />
+              </button>
+
+            <SkipForward size={20} className="text-zinc-200"/>
+            <Repeat size={20} className="text-zinc-200"/>
+          </div>
+          
+        </div>
+
         <div></div>
       </footer>
     </div>
