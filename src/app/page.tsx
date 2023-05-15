@@ -1,6 +1,7 @@
 import { Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight, Play, Heart, Shuffle, SkipBack, SkipForward, Repeat, Mic2, LayoutList, Laptop2, Volume, Maximize, Maximize2 } from 'lucide-react';
 import Image from 'next/image';
-import PlaylistRectangularView from '../components/playlistrectangularview/playlistRectangularView';
+import PlaylistRectangularView from '@/components/playlistrectangularview/playlistRectangularView';
+import PlaylistSquareView from '@/components/playlistsquareview/playlistSquareView';
 
 export default function Home() {
   return (
@@ -61,31 +62,11 @@ export default function Home() {
           <h1 className="font-semibold text-2xl mt-10">Made for Gabriel de Vasconcelos</h1>
 
           <div className="grid grid-cols-5 gap-4 mt-4">
-            <a href="" className="bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10">
-              <Image src="/eve-smile.jpg" className="w-full rounded-md" width={120} height={120} alt=""/>
-              <strong>Daily Mix 1</strong>
-              <span className="text-sm text-zinc-500">Eve, Japan</span>
-            </a>
-            <a href="" className="bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10">
-              <Image src="/eve-smile.jpg" className="w-full rounded-md" width={120} height={120} alt=""/>
-              <strong className="font-semibold">Daily Mix 1</strong>
-              <span className="text-sm text-zinc-500">Eve, Japan</span>
-            </a>
-            <a href="" className="bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10">
-              <Image src="/eve-smile.jpg" className="w-full rounded-md" width={120} height={120} alt=""/>
-              <strong className="font-semibold">Daily Mix 1</strong>
-              <span className="text-sm text-zinc-500">Eve, Japan</span>
-            </a>
-            <a href="" className="bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10">
-              <Image src="/eve-smile.jpg" className="w-full rounded-md" width={120} height={120} alt=""/>
-              <strong className="font-semibold">Daily Mix 1</strong>
-              <span className="text-sm text-zinc-500">Eve, Japan</span>
-            </a>
-            <a href="" className="bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10">
-              <Image src="/eve-smile.jpg" className="w-full rounded-md" width={120} height={120} alt=""/>
-              <strong className="font-semibold">Daily Mix 1</strong>
-              <span className="text-sm text-zinc-500">Eve, Japan</span>
-            </a>
+            <PlaylistSquareView imageSrc='eve-smile.jpg' title='Smile' author='Eve, Japan' />
+            <PlaylistSquareView imageSrc='eve-bokurano.jpg' title='Bokurano' author='Eve, Japan' />
+            <PlaylistSquareView imageSrc='eve-smile.jpg' title='Smile' author='Eve, Japan' />
+            <PlaylistSquareView imageSrc='eve-kakaikitan.jpg' title='Kakai Kitan' author='Eve, Japan' />
+            <PlaylistSquareView imageSrc='eve-smile.jpg' title='Smile' author='Eve, Japan' />
           </div>
         </main>
       </div>
