@@ -78,21 +78,21 @@ export default function Home() {
           <Image src="/eve-smile.jpg" width={56} height={56} alt=""/>
           <div className="flex flex-col">
             <strong className="font-normal hover:underline">LEO</strong>
-            <span className="text-xs text-zinc-400 hover:underline">Eve</span>
+            <span className="text-xs text-zinc-400 hover:underline hover:text-white">Eve</span>
           </div>
           <Heart size={16} className="text-zinc-400 hover:text-green-500" />
         </div>
         <div className="flex flex-col items-center gap-4">
           <div className="flex items-center gap-6">
-            <Shuffle size={20} className="text-zinc-200"/>
-            <SkipBack size={20} className="text-zinc-200"/>
+            <Shuffle size={20} className="text-zinc-300 hover:text-white"/>
+            <SkipBack size={20} className="text-zinc-300 hover:text-white"/>
           
             <button className="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-white text-black">
-                <Play />
-              </button>
+              <Play />
+            </button>
 
-            <SkipForward size={20} className="text-zinc-200"/>
-            <Repeat size={20} className="text-zinc-200"/>
+            <SkipForward size={20} className="text-zinc-300 hover:text-white"/>
+            <Repeat size={20} className="text-zinc-300 hover:text-white"/>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-xs text-zinc-400">0:31</span>
@@ -103,11 +103,11 @@ export default function Home() {
           </div>
         </div>
         <div className="flex items-center gap-2">
-          <Mic2 size={20} />
-          <LayoutList size={20} />
-          <Laptop2 size={20} />
+          <Mic2 size={20} className="text-zinc-300 hover:text-white"/>
+          <LayoutList size={20} className="text-zinc-300 hover:text-white"/>
+          <Laptop2 size={20} className="text-zinc-300 hover:text-white"/>
           <div className="flex items-center gap-2">
-            <Volume size={20} />
+            <Volume size={20} className="text-zinc-300 hover:text-white"/>
             <div className="h-1 rounded-full w-24 bg-zinc-600">
               <div className="bg-zinc-200 w-10 h-1 rounded-full"></div>
             </div>
