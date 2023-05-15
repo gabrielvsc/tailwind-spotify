@@ -51,12 +51,12 @@ export default function Home() {
           <h1 className="font-semibold text-3xl mt-10">Good Afternoon</h1>
         
           <div className="grid grid-cols-3 gap-4 mt-4">
-            <PlaylistRectangularView imageSrc="eve-bokurano.jpg" title="Bokurano" />
-            <PlaylistRectangularView imageSrc="eve-kakaikitan.jpg" title="Kakai Kitan" />
-            <PlaylistRectangularView imageSrc="eve-smile.jpg" title="Smile" />
-            <PlaylistRectangularView imageSrc="eve-bokurano.jpg" title="Bokurano" />
-            <PlaylistRectangularView imageSrc="eve-kakaikitan.jpg" title="Kakai Kitan" />
-            <PlaylistRectangularView imageSrc="eve-smile.jpg" title="Smile" />
+            <PlaylistRectangularView imageSrc="lost-in-japan.png" title="東京 | Lost in Japan" />
+            <PlaylistRectangularView imageSrc="fire.png" title="火 | FIRE" />
+            <PlaylistRectangularView imageSrc="earth.png" title="地 | EARTH" />
+            <PlaylistRectangularView imageSrc="water.png" title="水 | WATER" />
+            <PlaylistRectangularView imageSrc="wind.png" title="風 | WIND" />
+            <PlaylistRectangularView imageSrc="empty.png" title="空 | EMPTY" />
           </div>
 
           <div className="flex items-center justify-between mt-10">
