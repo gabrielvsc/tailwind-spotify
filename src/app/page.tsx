@@ -59,7 +59,10 @@ export default function Home() {
             <PlaylistRectangularView imageSrc="eve-smile.jpg" title="Smile" />
           </div>
 
-          <h1 className="font-semibold text-2xl mt-10">Made for Gabriel de Vasconcelos</h1>
+          <div className="flex items-center justify-between mt-10">
+            <h1 className="font-semibold text-2xl hover:underline">Made for Gabriel de Vasconcelos</h1>
+            <strong className="text-zinc-400 hover:underline">Show All</strong>
+          </div>
 
           <div className="grid grid-cols-5 gap-4 mt-4">
             <PlaylistSquareView imageSrc='eve-smile.jpg' title='Smile' author='Eve, Japan' />
