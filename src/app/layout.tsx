@@ -1,7 +1,7 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Spotify',
+  title: 'Spotify - Web Player: Music for everyone',
   description: 'Listen to music.',
 }
 
