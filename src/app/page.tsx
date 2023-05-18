@@ -65,11 +65,11 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-5 gap-4 mt-4">
-            <PlaylistSquareView imageSrc='eve-smile.jpg' title='Smile' author='Eve, Japan' />
-            <PlaylistSquareView imageSrc='eve-bokurano.jpg' title='Bokurano' author='Eve, Japan' />
-            <PlaylistSquareView imageSrc='eve-smile.jpg' title='Smile' author='Eve, Japan' />
-            <PlaylistSquareView imageSrc='eve-kakaikitan.jpg' title='Kakai Kitan' author='Eve, Japan' />
-            <PlaylistSquareView imageSrc='eve-smile.jpg' title='Smile' author='Eve, Japan' />
+            <PlaylistSquareView imageSrc='playlistImage.png' title='I&#x27;m kind of into it' author='Pop Music' />
+            <PlaylistSquareView imageSrc='playlistImage.png' title='Teach me to love just to let me go' author='Sad Songs' />
+            <PlaylistSquareView imageSrc='playlistImage.png' title='God&#x27;s Voice' author='Perfect Voices' />
+            <PlaylistSquareView imageSrc='playlistImage.png' title='↓AnimeOP&ED' author='Openings & Endings' />
+            <PlaylistSquareView imageSrc='playlistImage.png' title='愰' author='My Essence' />
           </div>
         </main>
       </div>
