@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎵 Spotify Interface Clone
+![NextJS](https://img.shields.io/badge/-NextJS-000000?logo=Next.js&logoColor=white&style=for-the-badge)
+![TailwindCss](https://img.shields.io/badge/-Tailwindcss-2D3748?logo=Tailwindcss&logoColor=white&style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=TypeScript&logoColor=white&style=for-the-badge)
+![React](https://img.shields.io/badge/-React-61DAFB?logo=React&logoColor=white&style=for-the-badge)
+
+## Description
+This is a personal project where I have adapted an idea from Rocketseat to study and practice using NextJS, TailwindCSS and React components. The original idea served as a foundation, but I have made modifications and additions to suit my learning objectives.
+
+The project aims to explore the capabilities of TailwindCSS, a utility-first CSS framework, in combination with React components. By building various components and layouts, I will gain hands-on experience with both technologies and enhance my understanding of their integration.
 
 ## Getting Started
+To get a local copy of the project up and running, follow these steps:
 
-First, run the development server:
+1. Clone the repository: 
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+git clone https://github.com/gabrielvsc/tailwind-spotify.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd tailwind-spotify
+```
+
+3. Install the dependencies:
+```bash
+pnpm install
+```
+
+4. Run the development server:
+```bash
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5. Open your browser and visit: [http://localhost:3000](http://localhost:3000)
